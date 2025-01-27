@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --second-color: #b9b9b9;
+    --primary-color:#b5afaf;
+    --black-color:#020101;
+     
+}
+body {
+    background-position: center;
+    background-image:url(hq720.avif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+
+
+}
+a{
+  color: var(--second-color);  
+  text-decoration: none;
+}
