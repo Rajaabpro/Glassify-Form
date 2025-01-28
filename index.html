@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
-    <link rel="styesheet" href="style.css">
-    <link rel="styesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="login_container">
-            <div class="login_title">
-                <span>Login</span>
-            </div>
-            <div class="input_wrapper">
-                <input type="password" id="pass" class="input_field" required>
-                <label for="pass" class="lable">password</label>
-                <i class="fa-solid fa-lock icon"></i>
-            </div>
-            <div class="remember-forgot">
-                <div class="remember-me">
-                    <input type="checkbox" id="remember">
-                    <label for="remember">Remember Me</label>
-                </div>
-                <div class="forgot">
-                    <a href="#">Forgot Password</a>
-                </div>
-            </div>
-            <div class="divinputwrapper">
-                <input type="submit" class="input-submit" value="Login">
-            </div>
-            <div class="signup">
-                <span>Don't have an account <a href="#">sign Up</a></span>
-            </div>
+      <div class="login-container">  
+        <div class="login_title">
+          <span>Login</span>
         </div>
+
+        <div class="input_wrapper">
+          <input type="text" id="username" class="input_field" required />
+          <label for="username" class="label">Username</label>
+          <i class="fa-solid fa-user icon"></i>
+        </div>
+
+  
+        <div class="input_wrapper">
+          <input type="password" id="pass" class="input_field" required />
+          <label for="pass" class="label">Password</label>
+          <i class="fa-solid fa-lock icon"></i>
+        </div>
+
+       
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember Me</label>
+          </div>
+          <div class="forgot">
+            <a href="#">Forgot Password</a>
+          </div>
+        </div>
+
+        <div class="divinputwrapper">
+          <input type="submit" class="input-submit" value="Login" />
+        </div>
+
+      
+        <div class="signup">
+          <span>Don't have an account? <a href="#">Sign Up</a></span>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
